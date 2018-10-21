@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	transition: all 0.1s ease-in-out;
+}
+html{
+	height: 100%;
+}
+body {
+	background-color: #0090D7;
+	border: 18px solid #2B81AC;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	font-family: “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+	color: #fff;
+	line-height: 2.2;
+	font-size: 18px; 
+
+}
+.container {
+	width: 70%;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.header, .footer {
+	text-align: left;
+}
+.town {
+	border: 2px solid #fff;
+	padding: 0;
+	font-size: 0;
+}
+.town li {
+	font-size: 18px;
+	display: inline-block;
+	border: 2px solid #fff;
+	text-align: center;
+	padding-top: 20px;
+	height: 120px;
+	list-style: none;
+}
+
+.town li div {
+	opacity: .6;
+}
+ 
+.town:hover li {
+	opacity: .6;
+}
+
+.town li:hover {
+	opacity: 1;
+}
+
+.small {
+	width: 25%;
+}
+
+.medium {
+	width: 50%;
+}
+
+.large {
+	width: 100%;
+}
+
+.blue {
+	background-color: #0091D7;
+}
+.cyan {
+	background-color: #33CCCC;
+}
+.byzantium {
+	background-color: #996699;
+}
+.red {
+	background-color: #C24747;
+}
+.orange {
+	background-color: #E2674A;
+}
+.yellow {
+	background-color: #FFCC67;
+}
+.lightgreen {
+	background-color: #99CC99;
+}
+.turquoiseblue {
+	background-color: #669999;
+}
+.purple {
+	background-color: #CC6699;
+}
+.green {
+	background-color: #339966;
+}
+.violet {
+	background-color: #666699;
+}
